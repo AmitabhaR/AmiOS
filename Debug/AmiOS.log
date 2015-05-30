@@ -1,0 +1,68 @@
+﻿Build started 5/29/2015 10:45:07 PM.
+     1>Project "E:\GIT\Secret-Bugs\AmiOS\AmiOS\AmiOS.vcxproj" on node 2 (Build target(s)).
+     1>Build:
+         Make.bat
+         ------------------- AmiOS Build System --------------------
+          Assembling: E:\GIT\Secret-Bugs\AmiOS\AmiOS\src\KernelEntry.asm
+         Microsoft (R) Macro Assembler Version 6.14.8444
+         Copyright (C) Microsoft Corp 1981-1997.  All rights reserved.
+         
+         Microsoft (R) C/C++ Optimizing Compiler Version 8.00c    
+         Copyright (c) Microsoft Corp 1984-1993. All rights reserved.
+         
+         e:\git\secret-bugs\amios\amios\src\kernel.c
+         Out of memory
+         Microsoft (R) C/C++ Optimizing Compiler Version 8.00c    
+         Copyright (c) Microsoft Corp 1984-1993. All rights reserved.
+         
+         e:\git\secret-bugs\amios\amios\src\display.c
+         Out of memory
+         Microsoft (R) C/C++ Optimizing Compiler Version 8.00c    
+         Copyright (c) Microsoft Corp 1984-1993. All rights reserved.
+         
+         e:\git\secret-bugs\amios\amios\src\disk.c
+         Out of memory
+         Microsoft (R) C/C++ Optimizing Compiler Version 8.00c    
+         Copyright (c) Microsoft Corp 1984-1993. All rights reserved.
+         
+         e:\git\secret-bugs\amios\amios\src\string.c
+     1>e:\git\secret-bugs\amios\amios\src\string.c(94): warning C4028: formal parameter 1 different from declaration
+         Out of memory
+         Microsoft (R) C/C++ Optimizing Compiler Version 8.00c    
+         Copyright (c) Microsoft Corp 1984-1993. All rights reserved.
+         
+         e:\git\secret-bugs\amios\amios\src\system.c
+         Out of memory
+         Microsoft (R) C/C++ Optimizing Compiler Version 8.00c    
+         Copyright (c) Microsoft Corp 1984-1993. All rights reserved.
+         
+         e:\git\secret-bugs\amios\amios\src\memory.c
+         Out of memory
+         Microsoft (R) C/C++ Optimizing Compiler Version 8.00c    
+         Copyright (c) Microsoft Corp 1984-1993. All rights reserved.
+         
+         e:\git\secret-bugs\amios\amios\src\process.c
+         Out of memory
+         
+         Microsoft (R) Segmented Executable Linker  Version 5.60.339 Dec  5 1994
+         Copyright (C) Microsoft Corp 1984-1993.  All rights reserved.
+         
+     1>LINK : fatal error L1093: Kernel.obj : object file not found
+         The system cannot find the file specified.
+         Could Not Find C:\MSVC\BIN\*.obj
+         Could Not Find E:\GIT\Secret-Bugs\AmiOS\AmiOS\*.com
+         00000000000i[      ] reading configuration from E:\GIT\Secret-Bugs\AmiOS\AmiOS\Build\boschsrc.bxrc
+         00000000000i[SIM   ] quit_sim called with exit code 1
+         ========================================================================
+                                Bochs x86 Emulator 2.6.7
+                       Built from SVN snapshot on November 2, 2014
+                           Compiled on Nov  2 2014 at 09:29:40
+         ========================================================================
+         -------------------- Build Complete ------------------
+         Press any key to continue . . . 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.MakeFile.Targets(38,5): error MSB3073: The command "Make.bat" exited with code -1.
+     1>Done Building Project "E:\GIT\Secret-Bugs\AmiOS\AmiOS\AmiOS.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.43

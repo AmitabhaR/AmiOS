@@ -1,0 +1,116 @@
+
+ Start  Stop   Length Name                   Class
+ 00000H 02984H 02985H _TEXT                  CODE
+ 02986H 02B89H 00204H _DATA                  DATA
+ 02B8AH 02B8AH 00000H CONST                  CONST
+ 02B8AH 0478BH 01C02H _BSS                   BSS
+ 04790H 04993H 00204H c_common               BSS
+
+ Origin   Group
+ 0000:0   DGROUP
+
+  Address         Publics by Name
+
+ 0000:135A       _clearScreen
+ 0000:1C62       _createFile
+ 0000:1CB0       _deleteFile
+ 0000:12F8       _disableMouse
+ 0000:1308       _drawPixel
+ 0000:2B8A       _edata
+ 0000:12E8       _enableMouse
+ 0000:4994       _end
+ 0000:14A8       _getClustor
+ 0000:12B4       _getCursor
+ 0000:1AC4       _getFile
+ 0000:132C       _getPixel
+ 0000:2B88       _jmp_val
+ 0000:274E       _kfree
+ 0000:1028       _kmain
+ 0000:22EA       _kmalloc
+ 0000:21DA       _kmem_init
+ 0000:269A       _krealloc
+ 0000:166A       _loadTable
+ 0000:26CE       _memcpy
+ 0000:2716       _memset
+ 0000:11B2       _print
+ 0000:121E       _printf
+ 0000:27B0       _process_create
+ 0000:293C       _process_handler
+ 0000:1011       _process_start
+ 0000:1B90       _readByte
+ 0000:1466       _readSector
+ 0000:1AB4       _saveTable
+ 0000:165A       _setClustorRecord
+ 0000:1294       _setCursor
+ 0000:1E30       _strcmp
+ 0000:1ECA       _strcpy
+ 0000:1DFA       _strlen
+ 0000:2080       _str_getchar_pos
+ 0000:20E6       _str_setchar
+ 0000:1FBA       _str_substr
+ 0000:101B       _syscall_startprocess
+ 0000:218C       _sys_checkAPM
+ 0000:212E       _sys_delay
+ 0000:21CA       _sys_getstatus_printer
+ 0000:21AA       _sys_ready_printer
+ 0000:2170       _sys_shutdown
+ 0000:21BA       _sys_write_printer
+ 0000:164A       _writeClustor
+ 0000:1498       _writeSector
+ 0000:2B8A       __edata
+ 0000:4994       __end
+ 0000:4790       __mbac
+
+  Address         Publics by Value
+
+ 0000:1011       _process_start
+ 0000:101B       _syscall_startprocess
+ 0000:1028       _kmain
+ 0000:11B2       _print
+ 0000:121E       _printf
+ 0000:1294       _setCursor
+ 0000:12B4       _getCursor
+ 0000:12E8       _enableMouse
+ 0000:12F8       _disableMouse
+ 0000:1308       _drawPixel
+ 0000:132C       _getPixel
+ 0000:135A       _clearScreen
+ 0000:1466       _readSector
+ 0000:1498       _writeSector
+ 0000:14A8       _getClustor
+ 0000:164A       _writeClustor
+ 0000:165A       _setClustorRecord
+ 0000:166A       _loadTable
+ 0000:1AB4       _saveTable
+ 0000:1AC4       _getFile
+ 0000:1B90       _readByte
+ 0000:1C62       _createFile
+ 0000:1CB0       _deleteFile
+ 0000:1DFA       _strlen
+ 0000:1E30       _strcmp
+ 0000:1ECA       _strcpy
+ 0000:1FBA       _str_substr
+ 0000:2080       _str_getchar_pos
+ 0000:20E6       _str_setchar
+ 0000:212E       _sys_delay
+ 0000:2170       _sys_shutdown
+ 0000:218C       _sys_checkAPM
+ 0000:21AA       _sys_ready_printer
+ 0000:21BA       _sys_write_printer
+ 0000:21CA       _sys_getstatus_printer
+ 0000:21DA       _kmem_init
+ 0000:22EA       _kmalloc
+ 0000:269A       _krealloc
+ 0000:26CE       _memcpy
+ 0000:2716       _memset
+ 0000:274E       _kfree
+ 0000:27B0       _process_create
+ 0000:293C       _process_handler
+ 0000:2B88       _jmp_val
+ 0000:2B8A       _edata
+ 0000:2B8A       __edata
+ 0000:4790       __mbac
+ 0000:4994       __end
+ 0000:4994       _end
+
+Program entry point at 0000:1000

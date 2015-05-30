@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AmiOS", "AmiOS.vcxproj", "{1D6AB52E-2C61-45CD-8336-2D615EA27F91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D6AB52E-2C61-45CD-8336-2D615EA27F91}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1D6AB52E-2C61-45CD-8336-2D615EA27F91}.Debug|Win32.Build.0 = Debug|Win32
+		{1D6AB52E-2C61-45CD-8336-2D615EA27F91}.Release|Win32.ActiveCfg = Release|Win32
+		{1D6AB52E-2C61-45CD-8336-2D615EA27F91}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
